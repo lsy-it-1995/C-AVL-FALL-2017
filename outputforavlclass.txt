@@ -1,0 +1,121 @@
+[R]andom [I]nsert [C]lear [E]rase [S]earch c[O]py [A]dd e[X]it
+r
+[L: 0]58[H: 0]|B: 0|
+
+[R]andom [I]nsert [C]lear [E]rase [S]earch c[O]py [A]dd e[X]it
+r
+tree_insert: duplicate entry found. returning
+[L: 0]58[H: 0]|B: 0|
+
+[R]andom [I]nsert [C]lear [E]rase [S]earch c[O]py [A]dd e[X]it
+r
+[L: 1]    77[H: 0]|B: 0|
+[L: 0]58[H: 1]|B: -1|
+
+[R]andom [I]nsert [C]lear [E]rase [S]earch c[O]py [A]dd e[X]it
+r
+rotate left
+[L: 1]    95[H: 0]|B: 0|
+[L: 0]77[H: 1]|B: 0|
+[L: 1]    58[H: 0]|B: 0|
+
+[R]andom [I]nsert [C]lear [E]rase [S]earch c[O]py [A]dd e[X]it
+r
+[L: 1]    95[H: 0]|B: 0|
+[L: 0]77[H: 2]|B: 1|
+[L: 2]        63[H: 0]|B: 0|
+[L: 1]    58[H: 1]|B: -1|
+
+[R]andom [I]nsert [C]lear [E]rase [S]earch c[O]py [A]dd e[X]it
+r
+[L: 1]    95[H: 0]|B: 0|
+[L: 0]77[H: 2]|B: 1|
+[L: 2]        63[H: 0]|B: 0|
+[L: 1]    58[H: 1]|B: 0|
+[L: 2]        13[H: 0]|B: 0|
+
+[R]andom [I]nsert [C]lear [E]rase [S]earch c[O]py [A]dd e[X]it
+r
+rotate right
+[L: 2]        95[H: 0]|B: 0|
+[L: 1]    77[H: 1]|B: 0|
+[L: 2]        63[H: 0]|B: 0|
+[L: 0]58[H: 2]|B: 0|
+[L: 2]        56[H: 0]|B: 0|
+[L: 1]    13[H: 1]|B: -1|
+
+[R]andom [I]nsert [C]lear [E]rase [S]earch c[O]py [A]dd e[X]it
+e
+which number you want to erase from the tree
+58
+hi
+here is your tree
+[L: 2]        95[H: 0]|B: 0|
+[L: 1]    77[H: 1]|B: 0|
+[L: 2]        63[H: 0]|B: 0|
+[L: 0]56[H: 2]|B: -1|
+[L: 1]    13[H: 0]|B: 0|
+
+[R]andom [I]nsert [C]lear [E]rase [S]earch c[O]py [A]dd e[X]it
+e
+which number you want to erase from the tree
+56
+hi
+rotate left
+here is your tree
+[L: 1]    95[H: 0]|B: 0|
+[L: 0]77[H: 2]|B: 1|
+[L: 2]        63[H: 0]|B: 0|
+[L: 1]    13[H: 1]|B: -1|
+
+[R]andom [I]nsert [C]lear [E]rase [S]earch c[O]py [A]dd e[X]it
+o
+copy tree looks like:
+[L: 1]    95[H: 0]|B: 0|
+[L: 0]77[H: 2]|B: 1|
+[L: 2]        63[H: 0]|B: 0|
+[L: 1]    13[H: 1]|B: -1|
+[R]andom [I]nsert [C]lear [E]rase [S]earch c[O]py [A]dd e[X]it
+c
+[R]andom [I]nsert [C]lear [E]rase [S]earch c[O]py [A]dd e[X]it
+r
+[L: 0]83[H: 0]|B: 0|
+
+[R]andom [I]nsert [C]lear [E]rase [S]earch c[O]py [A]dd e[X]it
+r
+[L: 0]83[H: 1]|B: 1|
+[L: 1]    39[H: 0]|B: 0|
+
+[R]andom [I]nsert [C]lear [E]rase [S]earch c[O]py [A]dd e[X]it
+r
+rotate left
+rotate right
+[L: 1]    83[H: 0]|B: 0|
+[L: 0]61[H: 1]|B: 0|
+[L: 1]    39[H: 0]|B: 0|
+
+[R]andom [I]nsert [C]lear [E]rase [S]earch c[O]py [A]dd e[X]it
+a
+adding your copied tree to your original tree
+rotate right
+the combination of tree is :
+[L: 3]            95[H: 0]|B: 0|
+[L: 2]        83[H: 1]|B: -1|
+[L: 1]    77[H: 2]|B: -1|
+[L: 2]        63[H: 0]|B: 0|
+[L: 0]61[H: 3]|B: -1|
+[L: 1]    39[H: 1]|B: 1|
+[L: 2]        13[H: 0]|B: 0|
+[R]andom [I]nsert [C]lear [E]rase [S]earch c[O]py [A]dd e[X]it
+s
+ WHAT NUMBER ARE YOU LOOKING FOR
+61
+item found:
+[R]andom [I]nsert [C]lear [E]rase [S]earch c[O]py [A]dd e[X]it
+s
+ WHAT NUMBER ARE YOU LOOKING FOR
+60
+item isn't found
+[R]andom [I]nsert [C]lear [E]rase [S]earch c[O]py [A]dd e[X]it
+x
+Press <RETURN> to close this window...
